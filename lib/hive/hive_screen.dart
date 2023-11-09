@@ -62,12 +62,12 @@ class _HomePageState extends State<HomePage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hive DB'),
+        title: const Text('Game Testing'),
         bottom: TabBar(
           controller: tabController,
           tabs: const [
-            Tab(text: "Person 2"),
-            Tab(text: "Product 2"),
+            Tab(text: "Asgar"),
+            Tab(text: "Vivek"),
           ],
         ),
       ),
@@ -162,7 +162,7 @@ class _HomePageState extends State<HomePage>
                 ),
               ],
             ),
-      floatingActionButton: Text("Kam karna"),
+      floatingActionButton: Text("Office e kam krva avo cho rmva ny"),
     );
   }
 }
