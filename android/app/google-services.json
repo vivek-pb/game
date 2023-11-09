@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943196734144",
+    "project_id": "saklamsaklam",
+    "storage_bucket": "saklamsaklam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943196734144:android:04725902ad6b80a366e325",
+        "android_client_info": {
+          "package_name": "com.example.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx6irXL3iG8MWphKZ7y8jBnh-PE_-KXfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
