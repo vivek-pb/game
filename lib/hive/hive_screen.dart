@@ -162,35 +162,7 @@ class _HomePageState extends State<HomePage>
                 ),
               ],
             ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          if (tabController.index == 0) {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => AddEditPersonScreen(
-                  refresh: () {
-                    fetchPersonData();
-                  },
-                ),
-              ),
-            );
-          } else {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => AddEditProductScreen(
-                  refresh: () {
-                    fetchProductData();
-                  },
-                ),
-              ),
-            );
-          }
-        },
-        tooltip: 'Add User',
-        child: const Icon(Icons.add),
-      ),
+      floatingActionButton: Text("Kam karna"),
     );
   }
 }
